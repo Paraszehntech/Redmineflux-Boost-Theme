@@ -1,0 +1,108 @@
+@import url(../../../stylesheets/application.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.controller-issues table.list td.id a{
+    display: inline-block; 
+    border: 2px solid rgb(90, 147, 233);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+    box-sizing: border-box;
+    text-decoration: none; 
+    border-radius: 6px;
+    width: 60px;
+ 
+}
+.controller-issues table.list td.id a:hover {
+    color:rgb(90, 147, 233)}
+
+.controller-issues #sidebar{
+    display: none;
+}
+.controller-issues table.list th.id a.sort::before {
+    content: "Ticket ";
+ 
+}
+.controller-issues table.list a {
+    text-decoration: none;
+    color: #333;
+    
+}
+.controller-issues{
+    font-family: "Poppins", sans-serif;
+}
+
+table.list th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: auto;
+    
+}
+.hascontextmenu:hover{
+    background-color: #92cdf5;
+}
+td.priority i {
+    font-size: 15px;
+    margin-right: 5px; 
+}
+
+.high i {
+    color: rgb(233, 74, 74); 
+}
+
+.medium i {
+    color: rgb(127, 211, 127); 
+}
+
+.low i {
+    color: rgb(154, 154, 255); 
+}
+.priority{
+    width:100px;
+    padding-left: 20px;
+    
+}
+.priority.medium{
+    text-align: start;
+}
+.priority.high{
+    text-align: start;
+}
+.priority.low{
+    text-align: start;
+}
+.id_high a {
+    border-color: rgb(233, 74, 74) !important; 
+}
+
+.id_medium a{
+    border-color: rgb(127, 211, 127) !important;
+}
+
+.id_low a {
+    border-color: rgb(154, 154, 255) !important; 
+}
+.controller-issues table.list th.fixed_version{
+    width: 100px !important;
+}
+.subject{
+    width: 400px;
+}
+table,th,td{
+    border-collapse: collapse;
+}
+.controller-issues table.list td.status{
+    display: inline-block; 
+  
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+    box-sizing: border-box;
+    text-decoration: none; 
+   background-color: #949292;
+   color: white;
+    width: 80px;
+    margin-top: 4px;
+}
